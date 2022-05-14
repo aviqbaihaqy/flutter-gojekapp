@@ -12,8 +12,8 @@ class _LauncherPageState extends State<LauncherPage> {
       body: new Center(
         child: new Image.asset(
           "assets/img/gojek.png",
-          height: 100,
-          width: 100,
+          height: 200,
+          width: 200,
         ),
       ),
     );

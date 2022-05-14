@@ -9,9 +9,11 @@ class BerandaPage extends StatefulWidget {
 class _BerandaPageState extends State<BerandaPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: new GojekAppbar(),
-      body: new Container(),
+    return SafeArea(
+      child: Scaffold(
+        appBar: new GojekAppbar(),
+        body: new Container(),
+      ),
     );
   }
 }

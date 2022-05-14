@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 
 class GojekAppbar extends AppBar {
-  GojekAppbar() : super(elevation: 0.25, backgroundColor: Colors.white, flexibleSpace: _buildGojekAppBar()) {
-    throw UnimplementedError();
-  }
+  GojekAppbar()
+      : super(
+          elevation: 0.25,
+          backgroundColor: Colors.white,
+          flexibleSpace: _buildGojekAppBar(),
+        );
 
   static Widget _buildGojekAppBar() {
     return new Container(

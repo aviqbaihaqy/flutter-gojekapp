@@ -8,6 +8,14 @@ class LauncherPage extends StatefulWidget {
 class _LauncherPageState extends State<LauncherPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: new Center(
+        child: new Image.asset(
+          "assets/img/gojek.png",
+          height: 100,
+          width: 100,
+        ),
+      ),
+    );
   }
 }

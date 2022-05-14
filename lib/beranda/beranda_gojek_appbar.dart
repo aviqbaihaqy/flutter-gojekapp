@@ -10,7 +10,7 @@ class GojekAppbar extends AppBar {
 
   static Widget _buildGojekAppBar() {
     return new Container(
-      padding: EdgeInsets.only(left: 16.0, right: 16.0),
+      padding: EdgeInsets.only(left: 10.0, right: 16.0),
       child: new Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[

@@ -61,8 +61,8 @@ flutter:
   # example:
   fonts:
     - family: NeoSans
-      fonts:
-        - asset: assets/fonts/Neo Sans Std Regular.otf
+        fonts:
+          - asset: assets/fonts/Neo Sans Std Regular.otf
     - family: NeoSansBold
         fonts:
           - asset: assets/fonts/Neo Sans Std Bold.otf

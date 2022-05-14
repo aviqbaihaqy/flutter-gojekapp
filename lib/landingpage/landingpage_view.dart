@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gojek/beranda/beranda_view.dart';
+import 'package:gojek/constant.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({Key? key}) : super(key: key);

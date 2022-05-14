@@ -17,7 +17,7 @@ class GojekAppbar extends AppBar {
           new Image.asset(
             "assets/img/gojek.png",
             height: 50.0,
-            width: 100.0,
+            width: 50.0,
           ),
           new Container(
             child: new Row(
